@@ -1,14 +1,12 @@
-#include "main.h"
-#include <stdio.h>
 
+#include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
+* mul - multiply 2 int
+ * @a: first int
+* @b: second int
+ * Return: addition of the multiplicattion
+*/
+int mul(int a, int b)
 {
-printf("%d\n", mul(98, 1024));
-printf("%d\n", mul(-402, 4096));
-return (0);
+return (a * b);
 }
